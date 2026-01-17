@@ -23,7 +23,7 @@
             <nav class="hidden lg:flex items-center gap-3 text-sm font-semibold">
 
                 <!-- Tests -->
-                <a href="#"
+                <a href="{{ route('all-test') }}"
                     class="group flex items-center gap-2 px-4 py-2 rounded-md text-gray-700
               hover:text-white transition-all duration-300
               hover:bg-gradient-to-r hover:from-primaryFrom hover:to-primaryTo
@@ -34,7 +34,7 @@
                 </a>
 
                 <!-- Packages -->
-                <a href="#"
+                <a href="{{ route('packages') }}"
                     class="group flex items-center gap-2 px-4 py-2 rounded-md text-gray-700
               hover:text-white transition-all duration-300
               hover:bg-gradient-to-r hover:from-primaryFrom hover:to-primaryTo
