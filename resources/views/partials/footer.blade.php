@@ -82,7 +82,7 @@
             <div class="flex items-center gap-4 text-white/60 text-sm">
                 <span>Powered by</span>
                 <span class="font-semibold text-white">
-                    Diagno Lab
+                    Diagno First Lab
                 </span>
             </div>
 
