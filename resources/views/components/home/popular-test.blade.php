@@ -39,8 +39,11 @@
                 // ✅ CORRECT ID
                 const carousel = document.getElementById("carousel");
 
-                Object.values(data).forEach(t => {
-                    carousel.insertAdjacentHTML("beforeend", `
+                Object.values(data)
+                    .filter(t => t.featured === true)
+                    .forEach(t => {
+
+                        carousel.insertAdjacentHTML("beforeend", `
                     <div class="w-[360px] flex-shrink-0 bg-white rounded-2xl shadow-xl p-4">
 
                         <div class="relative rounded-xl p-5 text-white bg-gradient-to-r from-primaryFrom to-primaryTo">
@@ -89,7 +92,7 @@
 
                     </div>
                 `);
-                });
+                    });
             })
             .catch(err => console.error('JSON error:', err));
     });

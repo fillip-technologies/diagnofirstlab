@@ -2,6 +2,7 @@
     "senior-citizen": {
         "slug": "senior-citizen",
         "name": "Senior Citizen Checkup",
+        "featured": true,
         "description": "Complete health evaluation for senior citizens.",
         "why": "This comprehensive checkup helps detect age-related health conditions early, enabling timely treatment and better quality of life for senior citizens.",
         "price": 6789,
@@ -28,6 +29,7 @@
     "basic-weakness": {
         "slug": "basic-weakness",
         "name": "Basic Weakness Checkup",
+        "featured": false,
         "description": "Helps identify nutritional deficiencies and causes of fatigue.",
         "why": "This checkup helps diagnose common causes of weakness such as vitamin deficiencies and anemia, allowing early correction and improved energy levels.",
         "price": 2730,
@@ -51,6 +53,7 @@
     "diabetes-care": {
         "slug": "diabetes-care",
         "name": "Diabetes Care Checkup",
+        "featured": true,
         "description": "Comprehensive diabetes monitoring and management panel.",
         "why": "Helps in monitoring blood sugar levels and preventing diabetes-related complications.",
         "price": 1890,
@@ -99,6 +102,7 @@
     "women-wellness": {
         "slug": "women-wellness",
         "name": "Women Wellness Checkup",
+        "featured": true,
         "description": "Health screening designed for women of all age groups.",
         "why": "Supports early detection of hormonal, metabolic, and nutritional issues in women.",
         "price": 2990,
@@ -124,6 +128,7 @@
     "men-wellness": {
         "slug": "men-wellness",
         "name": "Men Wellness Checkup",
+        "featured": true,
         "description": "Comprehensive health checkup for men.",
         "why": "Helps monitor lifestyle-related risks and overall male health.",
         "price": 2790,
@@ -149,6 +154,7 @@
     "thyroid-care": {
         "slug": "thyroid-care",
         "name": "Thyroid Care Checkup",
+        "featured": true,
         "description": "Complete thyroid function assessment.",
         "why": "Helps diagnose and monitor thyroid disorders effectively.",
         "price": 1290,

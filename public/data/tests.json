@@ -2,6 +2,7 @@
     "diabetes-checkup": {
         "slug": "diabetes-checkup",
         "name": "Diabetes Checkup",
+        "featured": true,
         "description": "Helps monitor blood sugar levels and assess diabetes control.",
         "why": "This test is essential for diagnosing diabetes, monitoring blood glucose control, and preventing long-term complications.",
         "price": 1890,
@@ -25,6 +26,7 @@
     "thyroid-profile": {
         "slug": "thyroid-profile",
         "name": "Thyroid Profile",
+        "featured": true,
         "description": "Complete thyroid evaluation to assess hormonal balance.",
         "why": "This test helps diagnose thyroid disorders such as hypothyroidism and hyperthyroidism.",
         "price": 1290,
@@ -48,6 +50,7 @@
     "tsh": {
         "slug": "tsh",
         "name": "TSH (Thyroid Stimulating Hormone)",
+        "featured": false,
         "description": "Measures thyroid-stimulating hormone to evaluate thyroid function.",
         "why": "TSH testing is the primary screening test for thyroid disorders.",
         "price": 390,
