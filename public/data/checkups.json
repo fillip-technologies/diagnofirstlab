@@ -1,0 +1,172 @@
+{
+    "senior-citizen": {
+        "slug": "senior-citizen",
+        "name": "Senior Citizen Checkup",
+        "description": "Complete health evaluation for senior citizens.",
+        "why": "This comprehensive checkup helps detect age-related health conditions early, enabling timely treatment and better quality of life for senior citizens.",
+        "price": 6789,
+        "mrp": 9100,
+        "discount": "25% Off",
+        "params": 58,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "tests": [
+            "Complete Blood Count (CBC)",
+            "Blood Sugar (Fasting & PP)",
+            "Lipid Profile",
+            "Kidney Function Test",
+            "Liver Function Test",
+            "Thyroid Profile"
+        ],
+        "trust_points": [
+            "NABL Certified Laboratory",
+            "Accurate & Reliable Reports",
+            "Trusted by Thousands of Patients"
+        ]
+    },
+    "basic-weakness": {
+        "slug": "basic-weakness",
+        "name": "Basic Weakness Checkup",
+        "description": "Helps identify nutritional deficiencies and causes of fatigue.",
+        "why": "This checkup helps diagnose common causes of weakness such as vitamin deficiencies and anemia, allowing early correction and improved energy levels.",
+        "price": 2730,
+        "mrp": 4550,
+        "discount": "40% Off",
+        "params": 63,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "tests": [
+            "Vitamin D",
+            "Vitamin B12",
+            "Iron Studies"
+        ],
+        "trust_points": [
+            "Fast & Accurate Testing",
+            "Doctor Recommended",
+            "Home Sample Collection Available"
+        ]
+    },
+    "diabetes-care": {
+        "slug": "diabetes-care",
+        "name": "Diabetes Care Checkup",
+        "description": "Comprehensive diabetes monitoring and management panel.",
+        "why": "Helps in monitoring blood sugar levels and preventing diabetes-related complications.",
+        "price": 1890,
+        "mrp": 3200,
+        "discount": "41% Off",
+        "params": 42,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Fasting Required",
+        "tests": [
+            "Fasting Blood Sugar (FBS)",
+            "Post Prandial Blood Sugar (PPBS)",
+            "HbA1c",
+            "Urine Sugar"
+        ],
+        "trust_points": [
+            "Doctor Recommended",
+            "Accurate Sugar Analysis",
+            "Quick Reports"
+        ]
+    },
+    "heart-health": {
+        "slug": "heart-health",
+        "name": "Heart Health Checkup",
+        "description": "Essential tests to assess heart health and cholesterol levels.",
+        "why": "Early detection of cardiac risk factors helps prevent heart disease.",
+        "price": 3490,
+        "mrp": 5200,
+        "discount": "33% Off",
+        "params": 28,
+        "time": "6 Hours",
+        "sample": "Blood",
+        "fasting": "Fasting Required",
+        "tests": [
+            "Lipid Profile",
+            "ECG",
+            "CRP",
+            "Blood Pressure"
+        ],
+        "trust_points": [
+            "Cardiac Risk Assessment",
+            "Clinically Approved",
+            "Doctor Supervised"
+        ]
+    },
+    "women-wellness": {
+        "slug": "women-wellness",
+        "name": "Women Wellness Checkup",
+        "description": "Health screening designed for women of all age groups.",
+        "why": "Supports early detection of hormonal, metabolic, and nutritional issues in women.",
+        "price": 2990,
+        "mrp": 4800,
+        "discount": "38% Off",
+        "params": 35,
+        "time": "6 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "tests": [
+            "CBC",
+            "Thyroid Profile",
+            "Vitamin D",
+            "Calcium",
+            "Blood Sugar"
+        ],
+        "trust_points": [
+            "Women-Focused Care",
+            "Trusted by Gynecologists",
+            "Accurate Reports"
+        ]
+    },
+    "men-wellness": {
+        "slug": "men-wellness",
+        "name": "Men Wellness Checkup",
+        "description": "Comprehensive health checkup for men.",
+        "why": "Helps monitor lifestyle-related risks and overall male health.",
+        "price": 2790,
+        "mrp": 4500,
+        "discount": "38% Off",
+        "params": 32,
+        "time": "6 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "tests": [
+            "CBC",
+            "Liver Function Test",
+            "Kidney Function Test",
+            "Vitamin B12",
+            "Blood Sugar"
+        ],
+        "trust_points": [
+            "Preventive Health Screening",
+            "Doctor Recommended",
+            "Fast Turnaround"
+        ]
+    },
+    "thyroid-care": {
+        "slug": "thyroid-care",
+        "name": "Thyroid Care Checkup",
+        "description": "Complete thyroid function assessment.",
+        "why": "Helps diagnose and monitor thyroid disorders effectively.",
+        "price": 1290,
+        "mrp": 1800,
+        "discount": "28% Off",
+        "params": 5,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "tests": [
+            "T3",
+            "T4",
+            "TSH"
+        ],
+        "trust_points": [
+            "Endocrinologist Recommended",
+            "Highly Accurate Tests",
+            "Fast Reports"
+        ]
+    }
+}

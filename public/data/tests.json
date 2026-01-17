@@ -1,0 +1,94 @@
+{
+    "diabetes-checkup": {
+        "slug": "diabetes-checkup",
+        "name": "Diabetes Checkup",
+        "description": "Helps monitor blood sugar levels and assess diabetes control.",
+        "why": "This test is essential for diagnosing diabetes, monitoring blood glucose control, and preventing long-term complications.",
+        "price": 1890,
+        "mrp": 3200,
+        "discount": "41% Off",
+        "params": 42,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Fasting Required",
+        "parameters": [
+            "Fasting Blood Sugar (FBS)",
+            "Post Prandial Blood Sugar (PPBS)",
+            "HbA1c"
+        ],
+        "trust_points": [
+            "Doctor Recommended Test",
+            "Accurate Glucose Analysis",
+            "Secure Digital Reports"
+        ]
+    },
+    "thyroid-profile": {
+        "slug": "thyroid-profile",
+        "name": "Thyroid Profile",
+        "description": "Complete thyroid evaluation to assess hormonal balance.",
+        "why": "This test helps diagnose thyroid disorders such as hypothyroidism and hyperthyroidism.",
+        "price": 1290,
+        "mrp": 1800,
+        "discount": "28% Off",
+        "params": 5,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "parameters": [
+            "Triiodothyronine (T3)",
+            "Thyroxine (T4)",
+            "Thyroid Stimulating Hormone (TSH)"
+        ],
+        "trust_points": [
+            "Highly Sensitive Assays",
+            "Clinically Validated Reports",
+            "Recommended by Endocrinologists"
+        ]
+    },
+    "tsh": {
+        "slug": "tsh",
+        "name": "TSH (Thyroid Stimulating Hormone)",
+        "description": "Measures thyroid-stimulating hormone to evaluate thyroid function.",
+        "why": "TSH testing is the primary screening test for thyroid disorders.",
+        "price": 390,
+        "mrp": 650,
+        "discount": "40% Off",
+        "params": 1,
+        "time": "3 Hours",
+        "sample": "Blood",
+        "fasting": "Not Required",
+        "parameters": [
+            "TSH"
+        ],
+        "trust_points": [
+            "Gold Standard Thyroid Test",
+            "Fast & Accurate Results",
+            "Doctor Prescribed"
+        ]
+    },
+    "urine-re": {
+        "slug": "urine-re",
+        "name": "Urine Routine Examination",
+        "description": "Evaluates urine for infections, kidney issues, and metabolic conditions.",
+        "why": "This test helps detect urinary tract infections, kidney disease, and diabetes-related complications.",
+        "price": 110,
+        "mrp": 180,
+        "discount": "39% Off",
+        "params": 17,
+        "time": "3 Hours",
+        "sample": "Urine",
+        "fasting": "Not Required",
+        "parameters": [
+            "Color",
+            "pH",
+            "Protein",
+            "Glucose",
+            "Ketones"
+        ],
+        "trust_points": [
+            "Standard Urinalysis Protocol",
+            "Clinically Reliable Results",
+            "Quick Turnaround Time"
+        ]
+    }
+}
