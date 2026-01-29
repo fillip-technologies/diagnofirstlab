@@ -78,7 +78,9 @@
                     hover:bg-secondaryFrom/5 hover:-translate-y-1 transition">
             <div class="flex flex-col items-center text-center">
                 <svg class="w-12 h-12 text-secondaryFrom mb-4" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M36 10v10c0 6 8 6 8 14s-6 20-16 20-16-10-16-20c0-10 8-10 8-18" />
+                    <path d="M32 8v18" />
+                    <path d="M32 26c-10 0-18 10-18 22" />
+                    <path d="M32 26c10 0 18 10 18 22" />
                 </svg>
                 <p class="font-semibold text-primaryFrom">Digestive</p>
             </div>
