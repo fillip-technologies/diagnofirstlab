@@ -50,6 +50,12 @@
             <!-- Actions -->
             <div class="hidden lg:flex items-center gap-3 text-sm">
 
+                <a href="#"
+                    class="bg-gradient-to-r from-primaryFrom to-primaryTo text-white px-4 py-1.5 rounded-md font-semibold hover:opacity-90 transition  hover:bg-gradient-to-r hover:from-primaryFrom hover:to-primaryTo
+              hover:shadow-lg hover:shadow-primaryFrom/30">
+                    Menbership Plans
+                </a>
+
 
                 <!-- Book Test (Gradient) -->
                 <a href="#"
@@ -78,7 +84,7 @@
                 </a>
 
                 <!-- Login -->
-                <a href="#"
+                <a href="{{ route('login') }}"
                     class="bg-gradient-to-r from-primaryFrom to-primaryTo text-white px-4 py-1.5 rounded-md font-semibold hover:opacity-90 transition">
                     Login
                 </a>
@@ -130,12 +136,12 @@
     <div class="p-4 space-y-3">
         <a href="#"
             class="block text-center border border-primaryFrom text-primaryFrom py-2 rounded-md font-semibold text-sm">
-            ⬇ Download Reports
+            Download Reports
         </a>
 
         <a href="#"
             class="block text-center bg-gradient-to-r from-primaryFrom to-primaryTo text-white py-2 rounded-md font-semibold text-sm">
-            ⬆ Upload Prescription
+            Upload Prescription
         </a>
     </div>
 
@@ -145,8 +151,10 @@
         <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">All Test</a>
         <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">All Packages</a>
         <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">About Us</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Terms & Conditions</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Privacy Policy</a>
+        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Membership Plans</p></a>
+        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">OPD Clinic Locator</a>
+        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Business Opportunities</a>
+
         <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Contact Us</a>
     </div>
 </div>

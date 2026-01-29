@@ -1,4 +1,4 @@
-<section class=" py-14">
+<section class=" py-6">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
 

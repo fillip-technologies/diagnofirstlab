@@ -7,7 +7,7 @@
                 <span class="inline-block mb-4 px-4 py-1 text-sm font-semibold 
                              bg-gradient-to-r from-secondaryFrom to-secondaryTo 
                              rounded-full">
-                    Trusted Diagnostic Center
+                    Trusted Diagnostic Company
                 </span>
 
                 <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
@@ -59,9 +59,9 @@
                             bg-gradient-to-r from-secondaryFrom to-secondaryTo 
                             opacity-30 blur-xl"></div>
 
-                <img src="{{ asset('images/hero-img.jpg') }}"
+                <img src="{{ asset('images/diagno-hero.png') }}"
                     alt="Diagno Labs Diagnostic"
-                    class="relative rounded-3xl shadow-2xl w-full">
+                    class="relative rounded shadow-2xl w-full">
             </div>
 
         </div>

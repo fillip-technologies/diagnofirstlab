@@ -34,12 +34,15 @@
 
             <ul class="space-y-3 text-white/70">
                 <li><a href="#" class="hover:text-white transition">Home</a></li>
-                <li><a href="#" class="hover:text-white transition">Packages</a></li>
-                <li><a href="#" class="hover:text-white transition">Checkups</a></li>
+
                 <li><a href="#" class="hover:text-white transition">About Us</a></li>
                 <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                <li><a href="#" class="hover:text-white transition">OPD Clinic Locator</a></li>
+                <li><a href="#" class="hover:text-white transition">Business Opportunities</a></li>
             </ul>
         </div>
+
+
 
         <!-- SERVICES -->
         <div>
@@ -48,11 +51,13 @@
             </h4>
 
             <ul class="space-y-3 text-white/70">
-                <li>Full Body Checkup</li>
-                <li>Diabetes Tests</li>
-                <li>Heart Health</li>
-                <li>Women Wellness</li>
-                <li>Home Sample Collection</li>
+                <li><a href="#" class="hover:text-white transition">Packages</a></li>
+                <li><a href="#" class="hover:text-white transition">Checkups</a></li>
+                <li>OPD Clinic</li>
+                <li>Lab Test</li>
+                <li>Hospital</li>
+                <li>Pharmacy</li>
+
             </ul>
         </div>
 

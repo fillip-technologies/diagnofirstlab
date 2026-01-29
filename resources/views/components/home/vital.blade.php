@@ -10,7 +10,8 @@
     </div>
 
     <!-- ORGAN GRID -->
-    <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="max-w-5xl mx-auto px-6 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+
 
         <!-- HEART -->
         <div class="group rounded-2xl p-8 border border-gray-200

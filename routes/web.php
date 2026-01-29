@@ -20,3 +20,6 @@ Route::get('/details/tests/{slug}', function () {
 Route::get('/details/checkups/{slug}', function () {
     return view('pages.checkup-details');
 });
+
+// LOGIN
+Route::get('/login', [HomeController::class, 'login'])->name('login');

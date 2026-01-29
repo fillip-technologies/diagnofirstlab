@@ -23,4 +23,10 @@ class HomeController extends Controller
     {
         return view('pages.packages');
     }
+
+    // login
+    public function login()
+    {
+        return view('pages.login');
+    }
 }
