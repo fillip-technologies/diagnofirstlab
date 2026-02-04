@@ -99,7 +99,7 @@
     <!-- Logo -->
     <div class="flex items-center gap-2">
         <img src="{{ asset('images/logo.png') }}" class="h-7" alt="">
-        <span class="font-bold text-primaryFrom">LABS</span>
+        <span class="font-bold text-primaryFrom"> DIAGNO LABS</span>
     </div>
 
     <!-- Actions -->
@@ -149,14 +149,14 @@
     <!-- Menu Links -->
     <div class="px-4 space-y-3 text-sm">
         <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Home</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">All Test</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">All Packages</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">About Us</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Membership Plans</p></a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">OPD Clinic Locator</a>
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Business Opportunities</a>
+        <a href="{{ route('all-test') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">All Test</a>
+        <a href="{{ route('packages') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">All Packages</a>
+        <a href="{{ route('about') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">About Us</a>
+        <a href="{{ route('memberships') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Membership Plans</a>
+        <a href="{{ route('opd') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">OPD Clinic Locator</a>
+        <a href="{{ route('business') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Business Opportunities</a>
 
-        <a href="#" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Contact Us</a>
+        <a href="{{ route('contact') }}" class="block bg-gray-50 px-4 py-3 rounded-md shadow-sm">Contact Us</a>
     </div>
 </div>
 <script>
