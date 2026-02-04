@@ -6,15 +6,16 @@
             <!-- Logo -->
             <div class="flex items-center gap-2">
 
-
-                <div class="leading-tight">
-                    <h1 class="text-base font-bold bg-gradient-to-r from-primaryFrom to-primaryTo bg-clip-text text-transparent">
-                        Diagno First Lab
-                    </h1>
-                    <p class="text-[10px] text-gray-500 tracking-wide uppercase">
-                        Every Life Is Precious
-                    </p>
-                </div>
+                <a href="/">
+                    <div class="leading-tight">
+                        <h1 class="text-base font-bold bg-gradient-to-r from-primaryFrom to-primaryTo bg-clip-text text-transparent">
+                            Diagno First Lab
+                        </h1>
+                        <p class="text-[10px] text-gray-500 tracking-wide uppercase">
+                            Care Beyond Cure
+                        </p>
+                    </div>
+                </a>
             </div>
 
 
@@ -50,10 +51,10 @@
             <!-- Actions -->
             <div class="hidden lg:flex items-center gap-3 text-sm">
 
-                <a href="#"
+                <a href="{{ route('memberships') }}"
                     class="bg-gradient-to-r from-primaryFrom to-primaryTo text-white px-4 py-1.5 rounded-md font-semibold hover:opacity-90 transition  hover:bg-gradient-to-r hover:from-primaryFrom hover:to-primaryTo
               hover:shadow-lg hover:shadow-primaryFrom/30">
-                    Menbership Plans
+                    Membership Plans
                 </a>
 
 
@@ -65,7 +66,7 @@
                 </a>
 
                 <!-- Download Reports (Outline small) -->
-                <a href="#"
+                <a href="{{ route('downloadreports') }}"
                     class="border border-primaryFrom text-primaryFrom px-4 py-1.5 rounded-md font-semibold hover:bg-primaryFrom hover:text-white transition  hover:bg-gradient-to-r hover:from-primaryFrom hover:to-primaryTo
               hover:shadow-lg hover:shadow-primaryFrom/30">
                     Download Reports

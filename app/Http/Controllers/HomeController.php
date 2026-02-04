@@ -12,16 +12,66 @@ class HomeController extends Controller
         return view('welcome');
     }
 
-    // About page
+    // test page
     public function test()
     {
         return view('pages.test');
     }
-
+    // Memberships page
+    public function memberships()
+    {
+        return view('pages.memberships');
+    }
     // Packages page
     public function packages()
     {
         return view('pages.packages');
+    }
+
+    // business
+    public function businessopportunities()
+    {
+        return view('pages.businessopportunities');
+    }
+
+    // opd
+    public function opd()
+    {
+        return view('pages.opd');
+    }
+    // pharmacy
+    public function pharmacy()
+    {
+        return view('pages.pharmacy');
+    }
+    // hospital
+    public function hospital()
+    {
+        return view('pages.hospital');
+    }
+
+    // about
+    public function about()
+    {
+        return view('pages.about');
+    }
+    
+    // contact
+    public function contact()
+    {
+        return view('pages.contact');
+    }   
+
+    // form
+    public function forms()
+    {
+        return view('pages.forms');
+    }
+
+    // Download Reports page
+    public function downloadReports()
+    {
+        return view('pages.downloadreports');
     }
 
     // login

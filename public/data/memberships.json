@@ -1,0 +1,48 @@
+{
+  "silver": {
+    "slug": "silver",
+    "name": "Silver Membership",
+    "price": 999,
+    "duration": "6 Months",
+    "recommended": false,
+    "description": "Basic healthcare benefits for individuals.",
+    "benefits": [
+      "10% discount on all tests",
+      "Free home sample collection",
+      "Priority customer support"
+    ],
+    "color": "gray"
+  },
+
+  "gold": {
+    "slug": "gold",
+    "name": "Gold Membership",
+    "price": 1999,
+    "duration": "12 Months",
+    "recommended": true,
+    "description": "Best value plan for families.",
+    "benefits": [
+      "20% discount on all tests",
+      "Free home sample collection",
+      "Free doctor consultation",
+      "Priority booking"
+    ],
+    "color": "yellow"
+  },
+
+  "platinum": {
+    "slug": "platinum",
+    "name": "Platinum Membership",
+    "price": 2999,
+    "duration": "12 Months",
+    "recommended": false,
+    "description": "Premium plan with maximum benefits.",
+    "benefits": [
+      "30% discount on all tests",
+      "Unlimited home collections",
+      "Dedicated relationship manager",
+      "Annual full body checkup"
+    ],
+    "color": "blue"
+  }
+}

@@ -33,15 +33,14 @@
             </h4>
 
             <ul class="space-y-3 text-white/70">
-                <li><a href="#" class="hover:text-white transition">Home</a></li>
+                <li><a href="" class="hover:text-white transition">Home</a></li>
 
-                <li><a href="#" class="hover:text-white transition">About Us</a></li>
-                <li><a href="#" class="hover:text-white transition">Contact</a></li>
-                <li><a href="#" class="hover:text-white transition">OPD Clinic Locator</a></li>
-                <li><a href="#" class="hover:text-white transition">Business Opportunities</a></li>
+                <li><a href="{{ route('about') }}" class="hover:text-white transition">About Us</a></li>
+                <li><a href="{{ route('contact') }}" class="hover:text-white transition">Contact</a></li>
+                <li><a href="{{ route('opd') }}" class="hover:text-white transition">OPD Clinic Locator</a></li>
+                <li><a href="{{ route('business') }}" class="hover:text-white transition">Business Opportunities</a></li>
             </ul>
         </div>
-
 
 
         <!-- SERVICES -->
@@ -51,12 +50,12 @@
             </h4>
 
             <ul class="space-y-3 text-white/70">
-                <li><a href="#" class="hover:text-white transition">Packages</a></li>
-                <li><a href="#" class="hover:text-white transition">Checkups</a></li>
-                <li>OPD Clinic</li>
-                <li>Lab Test</li>
-                <li>Hospital</li>
-                <li>Pharmacy</li>
+                <li><a href="{{ route('packages') }}" class="hover:text-white transition">Packages</a></li>
+                <!-- <li><a href="" class="hover:text-white transition">Checkups</a></li> -->
+                <li><a href="{{ route('opd') }}" class="hover:text-white transition">OPD Clinic</a></li>
+                <li><a href="{{ route('all-test') }}" class="hover:text-white transition">Lab Test</a></li>
+                <li><a href="{{ route('hospital') }}" class="hover:text-white transition">Hospital</a></li>
+                <li><a href="{{ route('pharmacy') }}" class="hover:text-white transition">Pharmacy</a></li>
 
             </ul>
         </div>
