@@ -6,16 +6,13 @@
             <!-- Logo -->
             <div class="flex items-center gap-2">
 
-                <a href="/">
-                    <div class="leading-tight">
-                        <h1 class="text-base font-bold bg-gradient-to-r from-primaryFrom to-primaryTo bg-clip-text text-transparent">
-                            Diagno First Lab
-                        </h1>
-                        <p class="text-[10px] text-gray-500 tracking-wide uppercase">
-                            Care Beyond Cure
-                        </p>
-                    </div>
+                <a href="/" class="flex items-center">
+                    <img
+                        src="{{ asset('images/diagno-lab.png') }}"
+                        alt="Diagno First Lab"
+                        class="h-40 w-auto">
                 </a>
+
             </div>
 
 
@@ -98,8 +95,9 @@
 <div class="lg:hidden flex items-center justify-between px-4 h-14 bg-white shadow-sm">
     <!-- Logo -->
     <div class="flex items-center gap-2">
-        <img src="{{ asset('images/logo.png') }}" class="h-7" alt="">
-        <span class="font-bold text-primaryFrom"> DIAGNO LABS</span>
+
+        <img src="{{ asset('images/diagno-lab.png') }}" class="h-28" alt="">
+
     </div>
 
     <!-- Actions -->

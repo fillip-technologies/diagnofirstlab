@@ -151,4 +151,4 @@
   .option-box {
     @apply bg-secondaryFrom/10 rounded-xl p-4;
   }
-</style>
+</style> 

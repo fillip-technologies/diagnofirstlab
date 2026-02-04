@@ -13,7 +13,7 @@
             </h2>
 
             <p class="text-base text-gray-600 mb-6 max-w-xl">
-                Diagno First Lab is a trusted diagnostic center delivering accurate, reliable,
+                Diagno First Lab is a trusted diagnostic company delivering accurate, reliable,
                 and timely pathology services. With advanced technology and a patient-first
                 approach, we ensure quality diagnostics you can depend on.
             </p>
