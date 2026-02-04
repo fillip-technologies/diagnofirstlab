@@ -22,14 +22,14 @@
 
                 <!-- Buttons -->
                 <div class="mt-8 flex flex-wrap gap-4">
-                    <a href="#appointment"
+                    <a href="{{ route('contact') }}"
                         class="px-8 py-3 rounded-full font-semibold text-white
                               bg-gradient-to-r from-secondaryFrom to-secondaryTo
                               shadow-lg hover:opacity-90 transition">
                         Book Test
                     </a>
 
-                    <a href="#tests"
+                    <a href="{{ route('all-test') }}"
                         class="px-8 py-3 rounded-full font-semibold text-white
                               border border-white/40 hover:bg-white/10 transition">
                         View Tests
