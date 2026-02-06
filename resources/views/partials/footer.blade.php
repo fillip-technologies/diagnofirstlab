@@ -67,9 +67,9 @@
             </h4>
 
             <ul class="space-y-3 text-white/70">
-                <li><a href="#" class="hover:text-white transition">FAQs</a></li>
-                <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
-                <li><a href="#" class="hover:text-white transition">Terms & Conditions</a></li>
+
+                <li><a href="{{ route('privacy') }}" class="hover:text-white transition">Privacy Policy</a></li>
+                <li><a href="{{ route('terms') }}" class="hover:text-white transition">Terms & Conditions</a></li>
             </ul>
         </div>
 

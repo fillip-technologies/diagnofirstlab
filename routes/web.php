@@ -36,6 +36,11 @@ Route::view('/about', 'pages.about')->name('about');
 // contact
 Route::view('/contact', 'pages.contact')->name('contact');
 
+// terms
+Route::view('/terms', 'pages.termsandcondition')->name('terms');
+
+// privacy policy
+Route::view('/privacy-policy', 'pages.privacypolicy')->name('privacy');
 
 // form
 Route::view('/forms', 'pages.forms')->name('forms');

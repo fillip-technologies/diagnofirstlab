@@ -55,12 +55,12 @@ class HomeController extends Controller
     {
         return view('pages.about');
     }
-    
+
     // contact
     public function contact()
     {
         return view('pages.contact');
-    }   
+    }
 
     // form
     public function forms()
@@ -68,10 +68,24 @@ class HomeController extends Controller
         return view('pages.forms');
     }
 
+
+
     // Download Reports page
     public function downloadReports()
     {
         return view('pages.downloadreports');
+    }
+
+    // terms
+    public function terms()
+    {
+        return view('pages.termsandcondition');
+    }
+
+    // privacy policy
+    public function privacyPolicy()
+    {
+        return view('pages.privacypolicy');
     }
 
     // login

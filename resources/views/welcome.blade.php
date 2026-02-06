@@ -2,6 +2,11 @@
 
 @section('content')
 
+<div id="page-loader">
+  <img src="{{ asset('images/diagno-lab.png') }}" alt="Diagno First Labs Logo">
+</div>
+
+
 <x-home.hero-section />
 
 <!-- search -->
@@ -68,9 +73,9 @@
                   bg-white/15 rounded-2xl
                   px-5 py-4 text-white text-xs font-medium">
         <svg class="w-7 h-7 mb-2" fill="none" stroke="currentColor" stroke-width="1.8"
-             viewBox="0 0 24 24">
+          viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round"
-                d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/>
+            d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z" />
         </svg>
         Heart
       </div>
@@ -80,9 +85,9 @@
                   bg-white/15 rounded-2xl
                   px-5 py-4 text-white text-xs font-medium">
         <svg class="w-7 h-7 mb-2" fill="none" stroke="currentColor" stroke-width="1.6"
-             viewBox="0 0 24 24">
+          viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round"
-                d="M9 4a3 3 0 00-3 3v1a3 3 0 00-2 5.2V14a3 3 0 003 3h1m6-13a3 3 0 013 3v1a3 3 0 012 5.2V14a3 3 0 01-3 3h-1M9 17h6"/>
+            d="M9 4a3 3 0 00-3 3v1a3 3 0 00-2 5.2V14a3 3 0 003 3h1m6-13a3 3 0 013 3v1a3 3 0 012 5.2V14a3 3 0 01-3 3h-1M9 17h6" />
         </svg>
         Brain
       </div>
@@ -92,9 +97,9 @@
                   bg-white/15 rounded-2xl
                   px-5 py-4 text-white text-xs font-medium">
         <svg class="w-7 h-7 mb-2" fill="none" stroke="currentColor" stroke-width="1.6"
-             viewBox="0 0 24 24">
+          viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round"
-                d="M3 12c0-4 3-7 7-7h4c4 0 7 3 7 7s-3 7-7 7H9"/>
+            d="M3 12c0-4 3-7 7-7h4c4 0 7 3 7 7s-3 7-7 7H9" />
         </svg>
         Liver
       </div>
@@ -125,8 +130,14 @@
 <x-home.faq />
 
 
-
-
-
-
 @endsection
+
+<script>
+  window.addEventListener("load", function() {
+    const loader = document.getElementById("page-loader");
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 1200);
+  });
+</script>
