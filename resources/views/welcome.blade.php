@@ -6,7 +6,7 @@
   <img src="{{ asset('images/diagno-lab.png') }}" alt="Diagno First Labs Logo">
 </div>
 
-
+<!-- home -->
 <x-home.hero-section />
 
 <!-- search -->
